@@ -20,7 +20,7 @@ import com.hoaxify.hoaxify.hoax.Hoax;
 
 import lombok.Data;
 
-@Data
+@Data                                     //convenient shortcut annotation that bundles the features of @ToString. Automates getters and Setters
 @Entity
 public class User implements UserDetails{
 
