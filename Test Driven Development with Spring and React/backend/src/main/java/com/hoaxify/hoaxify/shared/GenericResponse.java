@@ -3,7 +3,7 @@ package com.hoaxify.hoaxify.shared;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+@Data                          //creates automatic getters and setters
 @NoArgsConstructor
 public class GenericResponse {
 
