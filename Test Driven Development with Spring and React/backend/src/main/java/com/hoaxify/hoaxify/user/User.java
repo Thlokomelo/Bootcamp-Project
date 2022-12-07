@@ -30,7 +30,7 @@ public class User implements UserDetails{
 	private static final long serialVersionUID = 4074374728582967483L;
 	
 	@Id
-	@GeneratedValue
+	@GeneratedValue                   //creates unique id's
 	private long id;
 	
 	@NotNull(message = "{hoaxify.constraints.username.NotNull.message}")

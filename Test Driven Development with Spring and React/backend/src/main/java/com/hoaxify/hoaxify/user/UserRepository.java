@@ -1,3 +1,5 @@
+//Interface extending Spring JPA spring (comes with common database query methods)
+
 package com.hoaxify.hoaxify.user;
 
 import org.springframework.data.domain.Page;

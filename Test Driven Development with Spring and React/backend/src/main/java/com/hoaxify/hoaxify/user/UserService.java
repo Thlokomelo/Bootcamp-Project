@@ -11,7 +11,7 @@ import com.hoaxify.hoaxify.error.NotFoundException;
 import com.hoaxify.hoaxify.file.FileService;
 import com.hoaxify.hoaxify.user.vm.UserUpdateVM;
 
-@Service
+@Service                    //creates an instance of this class
 public class UserService {
 	
 	UserRepository userRepository;
