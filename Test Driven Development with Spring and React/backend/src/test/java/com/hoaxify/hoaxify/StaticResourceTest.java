@@ -1,3 +1,5 @@
+//Tests static resources
+
 package com.hoaxify.hoaxify;
 
 import static org.assertj.core.api.Assertions.assertThat;
